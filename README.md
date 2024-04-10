@@ -5,7 +5,7 @@ O objetivo deste código foi facilitar o envio do código ZPL (Formato de códig
 
 Claro que após o programa rodar, é necessário fazer alguns ajustes manualmente na programação do PLC, porém a parte mais custosa, já fica pronta.
 
-#Automation for repetitive jobs
+# Automation for repetitive jobs
 
 The objective of this code was to facilitate the sending of the ZPL code (Zebra code format for printer communication.) to the omrom PLC, via CX-Programmer, in the past the programmers I knew created everything manually, which consisted of transforming each character into HEX to manually add a block in the CX-Programer that sends the two-character hexcode to a memory area, and the programmer had to do these steps one by one manually, I thought it was very complicated to keep going 1 to 1 and I realized that it would cost me at least a week of work, so I developed this code and this process takes about 10 minutes, and it gives me much less work, the first step is to put the name of the variable you are using in the PLC memory, the second is type the name of the CX-Programmer screen, so that python can access the correct screen, the third step is to paste the zpl code of the label and then press CTRL-D and wait for it to do the whole process automatically.
 
