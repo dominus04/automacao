@@ -1,4 +1,5 @@
-#Automação para trabalhos repetitivos
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+# Automação para trabalhos repetitivos
 
 O objetivo deste código foi facilitar o envio do código ZPL (Formato de código zebra para comunicação com impressora.) para o PLC da omrom, via CX-Programmer, antigamente os programadores que eu conhecia criavam tudo manualmente, que consistia em transformar cada carctere em HEX para adicionar manualmente um bloco no CX-Programer que enviasse para um área de memória o hexcode de dois carcteres, e o programador tinha que fazer esses passos um a um manualmente, eu achei que era muito complicado ficar passando 1 a 1 e percebi que me custaria pelo menos uma semana de trabalho, então desenvolvi esse código e este processo demora certa de 10 minutos, e me dá muito menos trabalho, o primeiro passo é colocar o nome da variável que você está utilizando na memória do PLC, o segundo é digitar o nome da tela do CX-Programmer, para que o python consiga acessar a tela correta, terceiro passo é colar o código zpl da etiqueta e então apertar CTRL-D e esperar ele fazer todo o processo automaticamente.
 
